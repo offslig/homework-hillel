@@ -108,6 +108,11 @@ h2 {
   background-color: rgb(152, 216, 56);
   padding-right: 10px;
 }
+.skill_gh {
+  width: 15%;
+  background-color: rgb(152, 216, 56);
+  padding-right: 10px;
+}
 .education {
   color: white;
 }
