@@ -4,276 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./reset.css" />
   </head>
-  <body style="display: flex; flex-direction: row; justify-content: center">
-    <div
-      style="
-        width: 500px;
-        height: 656px;
-        border-bottom: 10px solid #46a358;
-        align-content: center;
-        cursor: pointer;
-      "
-    >
-      <div
-        style="
-          display: flex;
-          flex-direction: row;
-          justify-content: end;
-          margin: 13px;
-        "
-      >
+  <body class="body">
+    <div class="container">
+      <div class="close-button">
         <img src="./icons/cross.png" alt="cross" />
       </div>
-      <div style="display: flex; flex-direction: row; justify-content: center">
-        <a
-          href="#"
-          style="
-            font-family: Cera Pro;
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 16px;
-            text-align: left;
-            padding-right: 12px;
-            text-decoration: none;
-            color: #3d3d3d;
-          "
-          >Login</a
-        >
-        <a
-          href="#"
-          style="
-            font-family: Cera Pro;
-            font-size: 18px;
-            font-weight: 250;
-            line-height: 16px;
-            color: #3d3d3d;
-            text-decoration: none;
-          "
-          >I</a
-        >
-        <a
-          href="#"
-          style="
-            font-family: Cera Pro;
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 16px;
-            text-align: left;
-            color: #46a358;
-            padding-left: 10px;
-            text-decoration: none;
-          "
-          >Register</a
-        >
+      <div class="nav-links">
+        <a href="#" class="login-link">Login</a>
+        <a href="#" class="separator">I</a>
+        <a href="#" class="register-link">Register</a>
       </div>
-      <div style="display: flex; flex-direction: row; justify-content: center">
-        <p
-          style="
-            font-family: Cera Pro;
-            font-size: 13px;
-            font-weight: 400;
-            line-height: 16px;
-            padding-top: 20px;
-            padding-bottom: 2px;
-            padding-right: 65px;
-          "
-        >
-          Enter your email and password to register.
-        </p>
+      <div class="intro-text">
+        <p>Enter your email and password to register.</p>
       </div>
 
-      <form
-        style="
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          gap: 15px;
-        "
-      >
+      <form class="form">
         <input
           type="text"
           name="username"
           placeholder="Username"
-          style="
-            font-family: Cera Pro;
-            width: 300px;
-            height: 40px;
-            border-radius: 5px;
-            border: 1px solid #eaeaea;
-            color: #a5a5a5;
-            padding-left: 14px;
-            font-size: 14px;
-          "
+          class="input-field"
         />
         <input
           type="email"
           name="email"
           placeholder="Enter your email address"
-          style="
-            font-family: Cera Pro;
-            width: 300px;
-            height: 40px;
-            border-radius: 5px;
-            border: 1px solid #eaeaea;
-            color: #a5a5a5;
-            padding-left: 14px;
-            font-size: 14px;
-          "
+          class="input-field"
         />
-        <div>
+        <div class="password-wrapper">
           <img
             src="./icons/Hide.png"
             alt="password_icon"
-            style="
-              position: absolute;
-              top: 250px;
-              right: 810px;
-              cursor: pointer;
-            "
+            class="password-icon"
           />
           <input
             type="password"
             name="conf-pass"
             placeholder="Password"
-            style="
-              font-family: Cera Pro;
-              width: 300px;
-              height: 40px;
-              border-radius: 5px;
-              border: 1px solid #eaeaea;
-              color: #a5a5a5;
-              padding-left: 14px;
-              font-size: 14px;
-            "
+            class="input-field"
           />
         </div>
         <input
           type="password"
           name="conf_pass"
           placeholder="Confirm Password"
-          style="
-            font-family: Cera Pro;
-            width: 300px;
-            height: 40px;
-            border-radius: 5px;
-            border: 1px solid #eaeaea;
-            color: #a5a5a5;
-            padding-left: 14px;
-            font-size: 14px;
-          "
+          class="input-field"
         />
-        <button
-          type="submit"
-          style="
-            font-family: Cera Pro;
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 16px;
-            width: 318px;
-            height: 45px;
-            border-radius: 5px;
-            background-color: #46a358;
-            border: none;
-            color: #ffffff;
-            margin-top: 21px;
-          "
-        >
-          Register
-        </button>
+        <button type="submit" class="submit-button">Register</button>
       </form>
 
-      <div
-        style="
-          font-family: Cera Pro;
-          font-size: 13px;
-          font-weight: 400;
-          line-height: 16px;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          margin-top: 36px;
-          margin-bottom: 7px;
-        "
-      >
-        <hr
-          style="
-            width: 95px;
-            height: 0px;
-            top: 9px;
-            left: 205px;
-            margin: 10px;
-            border: 1px solid #eaeaea;
-          "
-        />
-        <span style="padding-left: 1px; padding-right: 1px"
-          >Or register with</span
-        >
-        <hr
-          style="
-            width: 95px;
-            height: 0px;
-            top: 9px;
-            left: 205px;
-            margin: 10px;
-            border: 1px solid #eaeaea;
-          "
-        />
+      <div class="divider">
+        <hr class="divider-line" />
+        <span>Or register with</span>
+        <hr class="divider-line" />
       </div>
-      <div
-        style="
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          gap: 15px;
-        "
-      >
-        <button
-          style="
-            font-family: Cera Pro;
-            font-size: 13px;
-            font-weight: 500;
-            line-height: 16px;
-            text-align: center;
-            background-color: #ffffff;
-            border: 1px solid #eaeaea;
-            width: 318px;
-            height: 45px;
-            color: #727272;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 9px;
-            border-radius: 5px;
-            margin-top: 20px;
-          "
-        >
+      <div class="social-buttons">
+        <button class="social-button">
           <img src="./icons/google.png" alt="google" />
           <span>Continue with Google</span>
         </button>
-        <button
-          style="
-            font-family: Cera Pro;
-            font-size: 13px;
-            font-weight: 500;
-            line-height: 16px;
-            text-align: center;
-            background-color: #ffffff;
-            border: 1px solid #eaeaea;
-            width: 318px;
-            height: 45px;
-            color: #727272;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 4px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-          "
-        >
+        <button class="social-button">
           <img src="./icons/facebook.png" alt="facebook" />
           <span>Continue with Facebook</span>
         </button>
