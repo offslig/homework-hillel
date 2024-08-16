@@ -1,0 +1,125 @@
+.main-box {
+  width: 1200px;
+  height: 55px;
+  margin: 30px 120px 12px 120px;
+  text-align: center;
+  border-bottom: 0.3px solid #46a35988;
+  padding: 0;
+}
+.logo {
+  width: 150px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: top;
+}
+.link {
+  display: inline-block;
+  vertical-align: top;
+}
+.menu {
+  height: 45px;
+  margin: 7px 301px 12px 229px;
+  display: inline-block;
+  vertical-align: top;
+}
+.menu ul li a {
+  color: #000;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.11px;
+  padding-bottom: 25px;
+  margin-right: 50px;
+}
+.menu ul li a:hover {
+  font-weight: 600;
+  border-bottom: 3px solid #46a358;
+}
+.btn-login {
+  width: 100px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #46a358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.11px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 6px;
+}
+.btn-login img {
+  padding-right: 5px;
+}
+.main-body {
+  width: 1200px;
+  height: 450px;
+  background: linear-gradient(
+    97.77deg,
+    rgba(245, 245, 245, 0.5) -23.46%,
+    rgba(245, 245, 245, 0.5) 107.51%
+  );
+  margin: 12px 120px 12px 120px;
+}
+.main-text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 550px;
+  height: 380px;
+  margin: 68px 0 0 43px;
+}
+.main-banner {
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+  height: 450px;
+  margin-left: 100px;
+}
+.head-title {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #3d3d3d;
+  text-transform: uppercase;
+}
+.main-title {
+  font-family: Cera Pro;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  text-align: left;
+  color: #3d3d3d;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+.planet {
+  color: #46a358;
+}
+.text {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #727272;
+  margin-top: 5px;
+}
+.btn-main {
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  width: 140px;
+  height: 40px;
+  top: 325px;
+  left: 41px;
+  border-radius: 6px;
+  background-color: #46a358;
+  margin-top: 44px;
+}
