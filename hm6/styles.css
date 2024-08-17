@@ -3,8 +3,7 @@
   height: 55px;
   margin: 30px 120px 12px 120px;
   text-align: center;
-  border-bottom: 0.3px solid #46a35988;
-  padding: 0;
+  border-bottom: 0.3px solid #46a35880;
 }
 .logo {
   width: 150px;
@@ -16,9 +15,29 @@
   display: inline-block;
   vertical-align: top;
 }
+.link1 {
+  width: 47px;
+  margin-right: 50px;
+  text-align: center;
+}
+.link2 {
+  width: 40px;
+  margin-right: 50px;
+  text-align: center;
+}
+.link3 {
+  width: 79px;
+  margin-right: 50px;
+  text-align: center;
+}
+.link4 {
+  width: 45px;
+  margin-right: 50px;
+  text-align: center;
+}
 .menu {
   height: 45px;
-  margin: 7px 301px 12px 229px;
+  margin: 7px 291px 12px 229px;
   display: inline-block;
   vertical-align: top;
 }
@@ -49,8 +68,12 @@
   color: #ffffff;
   border-radius: 6px;
 }
+.login-text {
+  width: 42px;
+  height: 20px;
+}
 .btn-login img {
-  padding-right: 5px;
+  width: 20px;
 }
 .main-body {
   width: 1200px;
@@ -111,7 +134,7 @@
 .btn-main {
   font-family: Cera Pro;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 20px;
   text-align: center;
   color: #ffffff;
@@ -123,6 +146,7 @@
   background-color: #46a358;
   margin-top: 44px;
   text-transform: uppercase;
+  
 }
 
 /* Styles for registration page */
