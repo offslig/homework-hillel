@@ -154,7 +154,6 @@
 
 .body-aside {
   width: 310px;
-  height: 1243px;
   display: inline-block;
   vertical-align: top;
   background-color: #fbfbfb;
@@ -203,7 +202,6 @@
 }
 .nav-body {
   width: 305px;
-  height: 23px;
   display: inline-block;
   vertical-align: top;
   margin-bottom: 31px;
@@ -228,7 +226,6 @@
 }
 .fake-select {
   width: 191px;
-  height: 23px;
   margin-left: 340px;
 }
 .nav-body {
@@ -266,14 +263,12 @@
 }
 .nav-items {
   width: 840px;
-  height: 1243px;
   display: inline-block;
   vertical-align: top;
   margin-left: 40px;
 }
 .items-list {
   width: 883px;
-  height: 1190px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -287,7 +282,6 @@
 .card-item-8,
 .card-item-9 {
   width: 258px;
-  height: 350px;
   display: inline-block;
   margin-right: 33px;
   margin-bottom: 70px;
@@ -334,7 +328,6 @@
   line-height: 16px;
   text-align: left;
   margin-top: 12px;
-  float: left;
 }
 .product-price {
   width: 62px;
@@ -362,13 +355,11 @@
 
 .pmenu-link {
   display: inline-block;
-
   margin-right: 10px;
 }
 .pmenu-link a {
   display: inline-block;
   width: 35px;
-  height: 35px;
   font-family: Cera Pro;
   font-size: 18px;
   font-weight: 300;
@@ -391,6 +382,7 @@
   font-weight: 700;
   color: #ffffff;
 }
+
 /* Styles for registration page */
 
 .body {
