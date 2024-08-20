@@ -77,7 +77,6 @@
 }
 .main-body {
   width: 1200px;
-  height: 450px;
   background: linear-gradient(
     97.77deg,
     rgba(245, 245, 245, 0.5) -23.46%,
@@ -96,7 +95,6 @@
   display: inline-block;
   vertical-align: middle;
   width: 500px;
-  height: 450px;
   margin-left: 100px;
 }
 .head-title {
@@ -146,9 +144,253 @@
   background-color: #46a358;
   margin-top: 44px;
   text-transform: uppercase;
-  
 }
 
+/* Styles for body */
+
+.hw6 {
+  margin-bottom: 46px;
+}
+
+.body-aside {
+  width: 310px;
+  height: 1243px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fbfbfb;
+  margin-left: 120px;
+}
+.categories {
+  display: inline-block;
+  width: 93px;
+  height: 16px;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #3d3d3d;
+  margin-top: 14px;
+  margin-left: 18px;
+}
+.aside-menu {
+  margin-bottom: 318px;
+  display: inline-block;
+}
+.aside-link {
+  margin-top: 7px;
+  margin-left: 30px;
+  width: 93px;
+}
+.aside-link a {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  color: #3d3d3d;
+}
+.aside-link a:hover {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #46a358;
+}
+.super-sale {
+  display: inline-block;
+  width: 310px;
+}
+.nav-body {
+  width: 305px;
+  height: 23px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 31px;
+}
+.sortby,
+.def-sort {
+  display: inline-block;
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #3d3d3d;
+}
+.nav-body,
+.fake-select {
+  display: inline-block;
+  vertical-align: middle;
+}
+.arrow-down {
+  padding-top: 2px;
+}
+.fake-select {
+  width: 191px;
+  height: 23px;
+  margin-left: 340px;
+}
+.nav-body {
+  display: inline-block;
+  vertical-align: top;
+}
+.bmenu-link {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 37px;
+}
+.bmenu-link a {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d3d3d;
+}
+.bmenu-link1 {
+  width: 66px;
+}
+.bmenu-link2 {
+  width: 88px;
+}
+.bmenu-link3 {
+  width: 29px;
+}
+.bmenu-link a:hover {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #46a358;
+  border-bottom: 2px solid #46a358;
+}
+.nav-items {
+  width: 840px;
+  height: 1243px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+}
+.items-list {
+  width: 883px;
+  height: 1190px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.card-item-1,
+.card-item-2,
+.card-item-3,
+.card-item-4,
+.card-item-5,
+.card-item-6,
+.card-item-7,
+.card-item-8,
+.card-item-9 {
+  width: 258px;
+  height: 350px;
+  display: inline-block;
+  margin-right: 33px;
+  margin-bottom: 70px;
+}
+
+.img-card1 {
+  padding: 31px 4px 19px 4px;
+}
+.img-card2 {
+  padding: 25px 4px 25px 4px;
+}
+.img-card3 {
+  padding: 24px 4px 26px 4px;
+}
+.img-card4 {
+  padding: 6px 13px 8px 21px;
+}
+.img-card5 {
+  padding: 23px 4px 27px 4px;
+}
+.img-card6 {
+  padding: 23px 4px 27px 4px;
+}
+.img-card7 {
+  padding: 18px 4px 32px 4px;
+}
+.img-card8 {
+  padding: 28px 4px 22px 4px;
+}
+.img-card9 {
+  padding: 19px 4px 31px 4px;
+}
+.details-card {
+  width: 258px;
+  display: inline-block;
+  background-color: #fbfbfb;
+}
+
+.product-name {
+  width: 152px;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  margin-top: 12px;
+  float: left;
+}
+.product-price {
+  width: 62px;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #46a358;
+  margin-top: 6px;
+  float: left;
+}
+
+.block-pmenu {
+  width: 1220px;
+  margin-left: 120px;
+}
+
+.page-menu {
+  display: inline-block;
+  margin-top: 90px;
+  margin-left: 970px;
+  margin-bottom: 82px;
+}
+
+.pmenu-link {
+  display: inline-block;
+
+  margin-right: 10px;
+}
+.pmenu-link a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: center;
+  color: #3d3d3d;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  opacity: 0px;
+  padding: 9px 12px 10px 13px;
+}
+
+.icon-arrow2 {
+  padding-top: 2px;
+}
+
+.pmenu-link a:hover {
+  background-color: #46a358;
+  border: none;
+  font-weight: 700;
+  color: #ffffff;
+}
 /* Styles for registration page */
 
 .body {
