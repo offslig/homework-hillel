@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GREENSHOP: Registration</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="body">
+    <div class="container">
+      <div class="close-button">
+        <img src="./icons/cross.png" alt="cross" />
+      </div>
+      <div class="nav-links">
+        <a href="#" class="login-link">Login</a>
+        <a href="#" class="separator">I</a>
+        <a href="#" class="register-link">Register</a>
+      </div>
+      <div class="intro-text">
+        <p>Enter your email and password to register.</p>
+      </div>
+
+      <form class="form">
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          class="input-field"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+          class="input-field"
+        />
+        <div class="password-wrapper">
+          <img
+            src="./icons/Hide.png"
+            alt="password_icon"
+            class="password-icon"
+          />
+          <input
+            type="password"
+            name="conf-pass"
+            placeholder="Password"
+            class="input-field"
+          />
+        </div>
+        <input
+          type="password"
+          name="conf_pass"
+          placeholder="Confirm Password"
+          class="input-field"
+        />
+        <button type="submit" class="submit-button">Register</button>
+      </form>
+
+      <div class="divider">
+        <hr class="divider-line" />
+        <span>Or register with</span>
+        <hr class="divider-line" />
+      </div>
+      <div class="social-buttons">
+        <button class="social-button">
+          <img src="./icons/google.png" alt="google" />
+          <span>Continue with Google</span>
+        </button>
+        <button class="social-button">
+          <img src="./icons/facebook.png" alt="facebook" />
+          <span>Continue with Facebook</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

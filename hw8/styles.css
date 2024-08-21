@@ -1,3 +1,5 @@
+/* STYLES FOR HEADER PAGE */
+
 .main-header {
   display: flex;
   flex-direction: column;
@@ -115,4 +117,306 @@
   margin-top: 44px;
 }
 
-/* MAIN STYLES */
+/* STYLES FOR MAIN PAGE (ASIDE + PRODUCT-CARDS) */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fbfbfb;
+  max-width: 310px;
+}
+.categories {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #3d3d3d;
+  margin-left: 18px;
+  margin-top: 14px;
+  margin-bottom: 7px;
+}
+.aside-all-links {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-left: 30px;
+}
+.aside-link {
+  color: #3d3d3d;
+}
+.aside-link:hover {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #46a358;
+}
+.super-sale {
+  margin-top: 377px;
+}
+.product-all-links {
+  display: flex;
+  gap: 37px;
+}
+.product-link,
+.sort-link,
+.sort-product {
+  color: #3d3d3d;
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.sort-link {
+  display: flex;
+  flex-direction: column;
+}
+.product-link:hover {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #46a358;
+  border-bottom: 2px solid #46a358;
+}
+.sort-list {
+  display: flex;
+  gap: 8px;
+}
+.product-sort {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 31px;
+  margin-left: 47px;
+}
+.product-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 33px;
+  row-gap: 70px;
+  margin-left: 47px;
+}
+.product-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfb;
+  min-width: 258px;
+  height: 300px;
+}
+.product-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.product-name {
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #3d3d3d;
+  margin-top: 12px;
+}
+.product-price {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #46a358;
+  margin-top: 6px;
+}
+.main-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 46px;
+  max-width: 1200px;
+}
+
+/* STYLES FOR UNDER MAIN PAGE */
+
+.under-main {
+}
+
+/* STYLES FOR REGISTRATION PAGE */
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  height: 656px;
+  border-bottom: 10px solid #46a358;
+  align-content: center;
+  cursor: pointer;
+}
+
+.close-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 13px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.login-link {
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  padding-right: 12px;
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.separator {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 250;
+  line-height: 16px;
+  color: #3d3d3d;
+  text-decoration: none;
+}
+
+.register-link {
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #46a358;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 14px;
+  padding-right: 45px;
+}
+
+.intro-text p {
+  font-family: Cera Pro;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.input-field {
+  font-family: Cera Pro;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  color: #a5a5a5;
+  padding-left: 14px;
+  font-size: 14px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.submit-button {
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #46a358;
+  border: none;
+  color: #ffffff;
+  margin-top: 21px;
+}
+
+.divider {
+  font-family: Cera Pro;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+  margin-bottom: 27px;
+}
+
+.divider-line {
+  width: 95px;
+  border: 1px solid #eaeaea;
+  margin: 10px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.social-button {
+  font-family: Cera Pro;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  width: 300px;
+  height: 45px;
+  color: #727272;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  border-radius: 5px;
+}
