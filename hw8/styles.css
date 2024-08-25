@@ -249,9 +249,213 @@
   max-width: 1200px;
 }
 
+/* STYLES FOR PAGE LIST  */
+
+.page-menu {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 90px;
+  display: flex;
+  justify-content: end;
+}
+.page-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.page-list > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+.page-link {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #3d3d3d;
+}
+.page-link:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #46a358;
+  color: #ffffff;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  border: none;
+  border-radius: 4px;
+}
+.arrow-right2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* STYLES FOR UNDER MAIN PAGE */
 
-.under-main {
+.flowers-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 94px;
+  margin-bottom: 138px;
+}
+.summer-cactus,
+.styling-trends {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  text-align: right;
+  background-color: #fbfbfb;
+  width: 586px;
+  height: 250px;
+}
+.flower-text {
+  margin-top: 37px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.flower-title {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  margin-bottom: 9px;
+  color: #3d3d3d;
+  text-transform: uppercase;
+}
+.flower-description {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 25px;
+  color: #727272;
+  width: 292px;
+}
+.find-more {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #46a358;
+  color: #ffffff;
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.right-arrow-white {
+  padding-top: 2px;
+}
+.gross-flower-1,
+.gross-flower-2 {
+  position: relative;
+  top: -50px;
+  width: 287px;
+  height: 292px;
+}
+
+/* STYLES FOR BLOG POSTS */
+
+.blog-posts {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.blog-posts-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+  margin-top: 35px;
+  margin-bottom: 68px;
+  max-width: 268px;
+}
+.blog-posts-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog-post-image {
+  width: 268px;
+  height: 195.17px;
+}
+.blog-posts-discription {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+.blog-posts-title {
+  font-family: Cera Pro;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 16px;
+}
+.blog-posts-text {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #727272;
+}
+.date-blog-post {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #46a358;
+  margin-top: 4px;
+}
+.name-blog-posts {
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #3d3d3d;
+  margin-top: 4px;
+}
+.text-blog-post-cards {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #727272;
+  margin-top: 4px;
+}
+.read-more-blog-post {
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #3d3d3d;
+  margin-top: 9px;
+}
+.read-more-blog-post:hover {
+  color: #46a358;
+}
+.right-arrow-black {
+  padding-top: 1px;
+}
+.right-arrow-black:hover {
+  fill: green;
 }
 
 /* STYLES FOR REGISTRATION PAGE */
@@ -277,7 +481,7 @@
   margin: 13px;
 }
 
-.nav-links {
+.reg-links {
   display: flex;
   flex-direction: row;
   justify-content: center;
