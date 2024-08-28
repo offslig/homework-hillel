@@ -213,8 +213,32 @@
   justify-content: center;
   align-items: center;
   background-color: #fbfbfb;
-  min-width: 258px;
   height: 300px;
+}
+.product-card:hover {
+  border-top: 1px solid #46a358;
+}
+.product-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 125px;
+  position: relative;
+  top: -90px;
+  left: 60px;
+  opacity: 0;
+}
+.shopping,
+.heart,
+.search {
+  background-color: #ffffff;
+  padding: 6px 7px 6px 8px;
+  border-radius: 4px;
+}
+
+.product-frame:hover {
+  opacity: 1;
 }
 .product-wrap {
   display: flex;
@@ -235,6 +259,32 @@
   line-height: 16px;
   color: #46a358;
   margin-top: 6px;
+}
+.product-price-action {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #a5a5a5;
+  text-decoration: line-through;
+  position: relative;
+  left: 75px;
+  top: -16px;
+}
+.product-price-sale {
+  background-color: #46a358;
+  color: #ffffff;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  height: 29px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -355px;
 }
 .main-wrap {
   display: flex;
@@ -465,7 +515,6 @@
   flex-direction: row;
   justify-content: center;
 }
-
 .container {
   width: 500px;
   height: 656px;
@@ -473,21 +522,18 @@
   align-content: center;
   cursor: pointer;
 }
-
 .close-button {
   display: flex;
   flex-direction: row;
   justify-content: end;
   margin: 13px;
 }
-
 .reg-links {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 40px;
 }
-
 .login-link {
   font-family: Cera Pro;
   font-size: 20px;
@@ -498,7 +544,6 @@
   text-decoration: none;
   color: #3d3d3d;
 }
-
 .separator {
   font-family: Cera Pro;
   font-size: 18px;
@@ -507,7 +552,6 @@
   color: #3d3d3d;
   text-decoration: none;
 }
-
 .register-link {
   font-family: Cera Pro;
   font-size: 20px;
@@ -518,7 +562,6 @@
   padding-left: 10px;
   text-decoration: none;
 }
-
 .intro-text {
   display: flex;
   flex-direction: row;
@@ -526,14 +569,12 @@
   margin-bottom: 14px;
   padding-right: 45px;
 }
-
 .intro-text p {
   font-family: Cera Pro;
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
 }
-
 .form {
   display: flex;
   flex-direction: column;
@@ -541,7 +582,6 @@
   align-items: center;
   gap: 15px;
 }
-
 .input-field {
   font-family: Cera Pro;
   width: 300px;
@@ -552,18 +592,15 @@
   padding-left: 14px;
   font-size: 14px;
 }
-
 .password-wrapper {
   position: relative;
 }
-
 .password-icon {
   position: absolute;
   top: 10px;
   right: 10px;
   cursor: pointer;
 }
-
 .submit-button {
   font-family: Cera Pro;
   font-size: 16px;
@@ -577,7 +614,6 @@
   color: #ffffff;
   margin-top: 21px;
 }
-
 .divider {
   font-family: Cera Pro;
   font-size: 13px;
@@ -590,13 +626,11 @@
   margin-top: 36px;
   margin-bottom: 27px;
 }
-
 .divider-line {
   width: 95px;
   border: 1px solid #eaeaea;
   margin: 10px;
 }
-
 .social-buttons {
   display: flex;
   flex-direction: column;
@@ -606,7 +640,6 @@
   margin-top: 20px;
   margin-bottom: 50px;
 }
-
 .social-button {
   font-family: Cera Pro;
   font-size: 13px;
