@@ -233,7 +233,7 @@
   transition: 0.3s;
   cursor: pointer;
 }
-.product-card:hover {
+.product-wrap:hover .product-card {
   border-top: 1px solid #46a358;
 }
 .product-frame {
