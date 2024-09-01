@@ -209,7 +209,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 31px;
-  margin-left: 47px;
+  margin-left: 62px;
 }
 .product-cards {
   display: flex;
@@ -228,8 +228,10 @@
   height: 300px;
   width: 250px;
 }
-.product-card div :hover .product-frame {
+.product-wrap:hover .product-frame {
   opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
 }
 .product-card:hover {
   border-top: 1px solid #46a358;
