@@ -38,6 +38,18 @@
   border-bottom: 3px solid #46a358;
   padding-bottom: 25px;
 }
+.under-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #edf6ee;
+}
+.under-menu-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3d3d3d;
+}
 .logout {
   display: flex;
   justify-content: center;
@@ -141,7 +153,7 @@
   color: #3d3d3d;
   margin-left: 18px;
   margin-top: 14px;
-  margin-bottom: 7px;
+  margin-bottom: -120px;
 }
 .aside-all-links {
   font-family: Cera Pro;
@@ -214,6 +226,10 @@
   align-items: center;
   background-color: #fbfbfb;
   height: 300px;
+  width: 250px;
+}
+.product-card div :hover .product-frame {
+  opacity: 1;
 }
 .product-card:hover {
   border-top: 1px solid #46a358;
@@ -269,7 +285,7 @@
   text-decoration: line-through;
   position: relative;
   left: 75px;
-  top: -16px;
+  top: -48px;
 }
 .product-price-sale {
   background-color: #46a358;
@@ -284,7 +300,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -355px;
+  top: -380px;
 }
 .main-wrap {
   display: flex;
