@@ -743,7 +743,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   padding: 25px;
 }
 .garden-care-title,
@@ -791,6 +791,7 @@ footer {
   color: #acacac;
   width: 100%;
   border-radius: 6px;
+  outline: none;
 }
 .input-button {
   display: flex;
@@ -845,7 +846,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: top;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   padding: 25px;
 }
 .nav-title {
