@@ -40,8 +40,9 @@
 }
 .under-menu-list {
   background-color: #edf6ee;
+  background-clip: content-box;
   position: absolute;
-  top: 100px;
+  padding-top: 40px;
   display: none;
 }
 .nav-links li:hover .under-menu-list {
@@ -75,9 +76,10 @@
 }
 .bottom-menu-list {
   background-color: #edf6ee;
-  position: relative;
-  left: 120px;
-  top: -0px;
+  background-clip: content-box;
+  position: absolute;
+  padding-left: 176px;
+  top: 40px;
   display: none;
 }
 .bottom-menu-navigation {
@@ -99,7 +101,7 @@
 .arrow-right-black-2-svg {
   position: absolute;
   left: 170px;
-  top: 120px;
+  top: 158px;
 }
 .bottom-menu-link {
   font-size: 16px;
