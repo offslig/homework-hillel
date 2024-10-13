@@ -69,12 +69,18 @@
             </ul>
           </nav>
 
-          <button class="logout">
-            <img src="./icons/Logout.svg" alt="logout" class="logout-image" />
-            Login
-          </button>
+<div class="search-logout">
+  <div class="search-basket">
+    <img src="./icons/search.svg" alt="search">
+    <img src="./icons/basket.svg" alt="basket">
+  </div>
+            <button class="logout">
+              <img src="./icons/Logout.svg" alt="logout" class="logout-image" />
+              <a href="./registration.html" class="login-link-btn">Login</a>
+            </button>
+</div>
         </div>
-
+      
         <div class="header-content">
           <div class="description">
             <span class="header-title">Welcome to GreenShop</span>
@@ -103,17 +109,30 @@
 
         <nav class="aside-links">
           <ul class="aside-all-links">
-            <li><a href="#" class="aside-link">House Plants</a></li>
-            <li><a href="#" class="aside-link">Potter Plants</a></li>
-            <li><a href="#" class="aside-link">Seeds</a></li>
-            <li><a href="#" class="aside-link">Small Plants</a></li>
-            <li><a href="#" class="aside-link">Big Plants</a></li>
-            <li><a href="#" class="aside-link">Succulents</a></li>
-            <li><a href="#" class="aside-link">Trerrariums</a></li>
-            <li><a href="#" class="aside-link">Gardening</a></li>
-            <li><a href="#" class="aside-link">Accessories</a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">House Plants</span><span class="aside-number">(33)</span></div></a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Potter Plants</span><span class="aside-number">(12)</span></div></a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Seeds</span> <span class="aside-number">(65)</span></div></a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Small Plants</span><span class="aside-number">(39)</span></div></a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Big Plants</span><span class="aside-number">(23)</span></div></a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Succulents</span><span class="aside-number">(17)</span></div></a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Trerrariums</span><span class="aside-number">(19)</span></div></a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Gardening</span><span class="aside-number">(13)</span></div></a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Accessories</span><span class="aside-number">(18)</span></div></a></li>
           </ul>
         </nav>
+
+        <div class="price-range ">
+          <span class="head-price-range">Price Range</span>
+          <input type="range" class="input-price-range" min="39" max="1230" step="1">
+          <p class="prise-list-price-range">Price: <span class="numbers-price-range">$39 - $1230</span></p>
+          <button class="btn-price-range">Filter</button>
+        </div>
+
+          <ul class="aside-all-links">
+            <span class="size-list">Size</span>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Small</span><span class="aside-number" >(119)</span></div></a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Medium</span><span class="aside-number" >(86)</span></div></a></li>
+            <li><a href="#" class="aside-link"><div class="aside-numbers"><span class="aside-one-link">Large</span><span class="aside-number" >(78)</span></div></a></li>
         <img
           src="./images/super-sale-banner.png"
           alt="super-sale"

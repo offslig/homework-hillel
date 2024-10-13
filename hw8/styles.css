@@ -1,3 +1,5 @@
+
+
 /* STYLES FOR HEADER PAGE */
 
 .main-header {
@@ -109,6 +111,11 @@
   line-height: 20px;
   color: #3d3d3d;
 }
+.search-basket {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
 .logout {
   display: flex;
   justify-content: center;
@@ -123,6 +130,10 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 20.11px;
+}
+.search-logout {
+  display: flex;
+  gap: 30px;
 }
 .header-content {
   display: flex;
@@ -193,9 +204,25 @@
 .main-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 0 auto;
   max-width: 1200px;
+}
+.aside-numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.aside-one-link {
+  margin-left: 30px;
+}
+.aside-number {
+  margin-right: 20px;
+}
+.size-list {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-left: 18px;
 }
 .aside {
   display: flex;
@@ -212,14 +239,13 @@
   color: #3d3d3d;
   margin-left: 18px;
   margin-top: 14px;
-  margin-bottom: -120px;
+  margin-bottom: 7px;
 }
 .aside-all-links {
   font-family: Cera Pro;
   font-size: 15px;
   font-weight: 400;
   line-height: 40px;
-  margin-left: 30px;
 }
 .aside-link {
   color: #3d3d3d;
@@ -231,8 +257,48 @@
   line-height: 40px;
   color: #46a358;
 }
+.price-range {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  gap: 16px;
+}
+.input-price-range {
+  background-color: #1a712a;
+}
+.head-price-range {
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #3d3d3d;
+}
+.price-list-price-range {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.numbers-price-range {
+  font-family: Cera Pro;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #46a358;
+}
+.btn-price-range {
+  width: 90px;
+  height: 35px;
+  background-color: #46a358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffffff;
+  border-radius: 6px;
+}
 .super-sale {
-  margin-top: 377px;
+  margin-top: 20px;
 }
 .product-all-links {
   display: flex;
@@ -612,6 +678,9 @@
   justify-content: center;
   margin-bottom: 40px;
 }
+.login-link-btn {
+  color: #ffffff;
+}
 .login-link {
   font-family: Cera Pro;
   font-size: 20px;
@@ -669,6 +738,7 @@
   color: #a5a5a5;
   padding-left: 14px;
   font-size: 14px;
+  outline: none;
 }
 .password-wrapper {
   position: relative;
@@ -677,6 +747,10 @@
   position: absolute;
   top: 10px;
   right: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #5dc171;
   cursor: pointer;
 }
 .submit-button {
